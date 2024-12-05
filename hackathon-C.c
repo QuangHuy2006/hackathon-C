@@ -166,7 +166,7 @@ int main(){
 			case 9:
 				for(i=0;i<=amount;i++){
 					cnt=0;
-					for(j=1;j<=arr[amount];j++){
+					for(j=1;j<=arr[i];j++){
 						if(arr[i]%j==0){
 							cnt++;	
 						}
